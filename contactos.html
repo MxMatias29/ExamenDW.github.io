@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Turisticos</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Nav -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="traslados.html">Traslados</a></li>
+                  <li><a class="dropdown-item" href="guias.html">Guia de Trabajo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  City Tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="city.html">City Tours Lima</a></li>
+                  <li><a class="dropdown-item" href="T_paracas.html">Lima y Paracas</a></li>
+                  <li><a class="dropdown-item" href="T_ica.html">Lima - Paracas e Ica</a></li>
+                  <li><a class="dropdown-item" href="T_nazca.html">Lima - Paracas - Ica y Nazca</a>
+                </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contáctenos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- Nav --> 
+
+<main class="bg-light mt-5 py-5">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>CONTACTENOS</h3>
+        <p>Dejanos tu Mensaje y nos comunicacmos contigo</p>
+        <form>
+          <div class="input-group mb-2">
+            <div class="input-group-propend p-1">
+              <i class="bi bi-person-fill"></i>
+            </div>
+            <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" required>
+          </div>
+          <div class="input-group mb-2">
+            <div class="input-group-propend p-1">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <input type="email" name="correo" id="correo" class="form-control" placeholder="Correo" required>
+          </div>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend p-1">
+              <i class="bi bi-chat-left-text-fill"></i>
+            </div>
+            <textarea name="mensaje" id="mensaje"  class="form-control" cols="30" rows="10" placeholder="Mensaje" required ></textarea>
+          </div>
+          <input type="submit" value="Enviar" class="form-control bg-danger text-white p-1" onclick="enviado()">
+          </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="mapa">
+          <h3>Oficinas</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.9872432401476!2d149.13705041482586!3d-35.18187049582337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1654855092e0d3%3A0x15c5132f64562e49!2sPallin%20St%2C%20Gungahlin%20ACT%202912%2C%20Australia!5e0!3m2!1ses-419!2spe!4v1594669166483!5m2!1ses-419!2spe"  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<!--Footer-->
+<footer>
+  <div class="container py-4 footer">
+    <div class="row">
+      <div class="col-lg-3">
+        
+        <h6>Dirección <i class="bi bi-house-door"></i></h6>
+        <p> Avenida Las Cuzadas 2020 frente a los Robles</p>
+      </div>
+      <div class="col-lg-3">
+        
+        <h6>Teléfono <i class="bi bi-telephone"></i></h6>
+        <p>+51 936089308</p> 
+      </div>
+      <div class="col-lg-3">
+        <h6>Email <i class="bi bi-envelope"></i></h6>
+        <p>matiasmayorga@gmail.com</p>
+      </div>
+      <div class="col-lg-3" align="center">
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook ico"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube ico"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin ico"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram ico"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Footer-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+ function enviado() {
+    alert("Correo enviado");
+    window.location.href = "promociones.html";
+}
+</script>
+</body>
+</html>

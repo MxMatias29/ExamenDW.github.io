@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+   
+*{
+    font-family: 'Poppins' , sans-serif;
+}
+nav{
+    background-color:#0D5E8B;
+    font-size: 20px;
+    padding: 0 32px;
+}
+nav img{
+    width: 220px;
+    height: 75px;
+    padding-left: 32px;
+}
+
+.nav-link{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav{
+    padding-right: 90px;
+}
+
+
+.list{
+    list-style: url(../img/viñeta.png);
+}
+
+
+h2{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.lista{
+    margin-left: 10px;
+    
+}
+.list{
+    margin-right: 5px;
+}
+footer{
+    background:#0D5E8B;
+    margin-top: 20px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.ico{
+    font-size: 16px;
+    padding: 10px;
+    align-content: space-around;
+    color: white;  
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Esto asegura que el contenedor ocupe al menos el 100% del alto de la ventana */
+}
+
+.img{
+    border-radius: 20px;
+}   
